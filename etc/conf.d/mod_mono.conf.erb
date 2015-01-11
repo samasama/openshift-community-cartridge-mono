@@ -8,8 +8,8 @@
     AddOutputFilterByType DEFLATE text/html text/plain text/xml text/javascript
 </IfModule>
 <IfModule !mod_mono.c>
-    LoadModule mono_module <%= ENV['OPENSHIFT_MONO_DIR'] %>/mono/modules/mod_mono.so
-    MonoServerPath "<%= ENV['OPENSHIFT_MONO_DIR'] %>/mono/bin/mod-mono-server4"
+    LoadModule mono_module <%= ENV['OPENSHIFT_MONO_DIR'] %>mono/modules/mod_mono.so
+    MonoServerPath "<%= ENV['OPENSHIFT_MONO_DIR'] %>mono/bin/mod-mono-server4"
     MonoIOMAP all
     MonoApplications "/:<%= ENV['OPENSHIFT_REPO_DIR'] %>"
     <Location "/">

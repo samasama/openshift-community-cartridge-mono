@@ -1,13 +1,13 @@
 Name: mono
 Cartridge-Short-Name: MONO
 Display-Name: ASP.NET Cartridge using Mono
-Source-Url: https://github.com/wshearn/openshift-community-cartridge-mono/archive/3.2.1.zip
+Source-Url: https://github.com/samasama/openshift-community-cartridge-mono/archive/3.2.1.zip
 Description: "ASP.NET for OpenShift."
 Version: '3.2.1'
 License: "GPL/LGPL"
 Vendor: Xamarin
 Cartridge-Version: 2.0
-Cartridge-Vendor: wshearn
+Cartridge-Vendor: samasama
 Categories:
   - service
   - web_framework
